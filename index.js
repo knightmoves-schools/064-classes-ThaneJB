@@ -3,7 +3,8 @@ class Person {
      this.firstName = firstName;
      this.lastName = lastName;
    }
-
-  
 }
 
+let person = new Person('John', 'Stevens');
+
+let guests = [`${person.firstName} ${person.lastName},${person.firstName}`];
