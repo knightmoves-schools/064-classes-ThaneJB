@@ -1,11 +1,17 @@
 class Person {
    constructor(firstName, lastName) {
      this.firstName = firstName;
-     this.lastNamez = lastName;
+     this.lastName = lastName;
    }
 }
 
 let person = new Person('John', 'Stevens');
 
-var guests = [person.firstName, person.lastName, person.lastName];
+let guests = [];
 
+function guestCounter(guests) {
+  for (let i = 0; i < 3; i++) {
+    guests.push(person.firstName, person.lastName);
+  }
+ return guests;
+}
