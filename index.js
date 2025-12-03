@@ -7,5 +7,5 @@ class Person {
 
 let person = new Person('John', 'Stevens');
 
-var guests = [person.firstName, person.lastName];
+var guests = [person.firstName, person.lastName, person.lastName];
 
