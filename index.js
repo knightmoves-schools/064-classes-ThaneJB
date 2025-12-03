@@ -5,7 +5,7 @@ class Person {
    }
 }
 
-const person = new Person('John', 'Stevens');
+const person = new Person(John, Stevens);
 
 const guests = [];
 
