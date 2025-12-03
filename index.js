@@ -7,7 +7,7 @@ class Person {
 
 let person = new Person('John', 'Stevens');
 
-let guests = [];
+const guests = [];
 
 function guestCounter(guests) {
   for (let i = 0; i < 3; i++) {
