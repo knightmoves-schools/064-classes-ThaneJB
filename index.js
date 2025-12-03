@@ -5,9 +5,9 @@ class Person {
    }
 }
 
-const person = new Person(John, Stevens);
+const person = new Person("John", "Stevens");
 
-var guests = [ ];
+var guests = [];
 
 
   for (let i = 0; i < 3; i++) {
