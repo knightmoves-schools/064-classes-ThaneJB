@@ -7,4 +7,9 @@ class Person {
 
 let person = new Person('John', 'Stevens');
 
-let guests = [`${person.firstName} ${person.lastNamez},${person.firstName}`];
+var guests = [`${person.firstName} ${person.lastNamez}`];
+
+function guest(){
+  var guests = [`${person.firstName}`];
+  console.log(guest);
+}
