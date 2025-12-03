@@ -7,7 +7,7 @@ class Person {
 
 const person = new Person(John, Stevens);
 
-const guests = [];
+var guests = [ ];
 
 
   for (let i = 0; i < 3; i++) {
