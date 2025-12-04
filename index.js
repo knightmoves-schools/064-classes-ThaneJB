@@ -5,12 +5,9 @@ class Person {
    }
 }
 
-let person = new Person(`John`, `Stevens`);
-
-var guests = [];
+var guests = [new Person(`John`, `Stevens`), new Person(`John`, `Marston`), new Person(`Arthur`, `Morgan`)];
 
 
-  for (let i = 0; i < 4; i++) {
-    guests.push(person.firstName);
-  }
+
+
 
