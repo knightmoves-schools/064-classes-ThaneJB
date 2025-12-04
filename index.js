@@ -11,6 +11,6 @@ var guests = [];
 
 
   for (let i = 0; i < 3; i++) {
-    guests.push(`${person.firstName}`);
+    guests.push('person.firstName');
   }
 
